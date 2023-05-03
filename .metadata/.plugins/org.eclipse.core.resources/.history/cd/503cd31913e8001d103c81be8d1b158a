@@ -1,0 +1,25 @@
+package com.java.basic;
+
+import java.util.Scanner;
+
+public class EvenOddNum {
+
+	public static void main(String[] args) {
+		System.out.println("Welcome to Odd Even Program: ");
+		Scanner scan = new Scanner(System.in);
+		int num = scan.nextInt();
+		System.out.println("Enter a num : " +num);
+		
+		if(num/2==0);
+		{
+			System.out.println(+num +"Number is Even");
+		}
+		else
+			{
+			System.out.println(num +"Number is Odd");
+			}
+		
+
+	}
+
+}

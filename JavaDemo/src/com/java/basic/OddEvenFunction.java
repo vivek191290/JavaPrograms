@@ -1,0 +1,48 @@
+package com.java.basic;
+
+public class OddEvenFunction {
+		   
+		   // 50, 48, 46............6, 4,2
+		   
+		   static boolean isEven(int n)
+		   {
+		       return n%2==0;
+		           
+		       
+		   }
+		   
+		   static void sayHello(String name)
+		   {
+		       System.out.println("Hello "+name);
+		   }
+		   
+		   // salary * 20% increment
+		   // 100 ==> 120
+		   
+		   static double getIncrement(double salary)
+		   {
+		       
+		       return salary * 1.20;
+		   }
+
+		   public static void main(String[] args) {
+		       
+		       double incSalary = getIncrement(20000);
+		       System.out.println("Hiked Salary: "+incSalary);
+		       
+		       
+		       sayHello("Raj");
+		       sayHello("Leela");        
+		       
+		   System.out.println("Factorial number is : ");
+		       for(int i=50;i>=2;i--)
+		    {
+		         if(isEven(i))
+		        System.out.println(i); // 50,48,........2
+		    }
+		       
+		   }
+
+		}
+
+
